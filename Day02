@@ -1,0 +1,26 @@
+//Day02
+#include <iostream>
+using namespace std;
+
+int main()
+{
+   int t;
+   cout<<"Enter Number Of Test cases: ";
+   cin >>t;
+   while(t--)
+   {
+   int x,y,z,total_cash;
+   int total_chocolate;
+   cout<<"Number Of 5 Rupees Coin: ";
+   cin >> x;
+   cout<<"Number Of 10 Rupees Coin: ";
+   cin >> y;
+   cout<<"Cost Of Chocolate: ";
+   cin >> z;
+   total_cash = (x*5)+(y*10);
+   total_chocolate = total_cash/z;
+   cout<<"Number Of Chocolates He Can Buy: "<<total_chocolate;
+   cout<<"\n"<<endl;
+   }
+   return 0; 
+}
