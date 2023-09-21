@@ -1,0 +1,29 @@
+//Day04
+#include <iostream>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int t,i;
+	cout<<"Enter Number Of Test Cases:";
+	cin>>t;
+	for(i=0;i<t;i++)
+{
+    int x,y,z,w;
+    cout<<"Daily Goal:";
+    cin>>x;
+    cout<<"Number of chocolates he actually sells:";
+    cin>>y;
+	if(x>=y)
+	{
+	    cout<<y<<endl;
+	}
+	else
+	{
+	   z=y-x;
+	   w=(z*2)+x;
+	   cout<<"Total amount made in a day:"<<w<<endl;
+	}
+}
+	return 0;
+}
