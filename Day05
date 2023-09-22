@@ -1,0 +1,25 @@
+//Day05
+#include <iostream>
+using namespace std;
+
+int main() {
+	int t,battery,i;
+	cout<<"Enter number of test cases:"<<endl;
+	cin>>t;
+	for(i=0;i<t;i++)
+	{
+	    cout<<"Enter your battery percentage:"<<endl;
+	    cin>>battery;
+	    if(battery<=15)
+	    {
+	        cout<<"Your battery is LOW!"<<endl;
+	        
+	    }
+	    else
+	    {
+	        cout<<"You have enough battery."<<endl;
+	        
+	    }
+	}
+	return 0;
+}
