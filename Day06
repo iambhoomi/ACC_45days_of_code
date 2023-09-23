@@ -1,0 +1,33 @@
+//Day06
+#include <iostream>
+using namespace std;
+
+int main() {
+
+	int t,z,i,n;
+	cout<<"enter number of test cases:"<<endl;
+	cin>>t;
+	for(i=0;i<t;i++)
+	{cout<<"Enter the number of friends"<<endl;
+	 cin>>n;
+	    
+	    if(n<=4)
+	    {
+	        cout<<"Only 1 car is required"<<endl;
+	    }
+	    else
+	    {
+	        if(n%4==0)
+	        {
+	            z=n/4;
+	            cout<<"Cars required:"<<z<<endl;
+	        }
+	        else
+	        {
+	            z=n/4;
+	            cout<<"Cars required:"<<z+1<<endl;
+	        }
+	    }
+	}
+	return 0;
+}
