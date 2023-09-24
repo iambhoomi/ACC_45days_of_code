@@ -1,0 +1,26 @@
+//Day07
+#include <iostream>
+using namespace std;
+
+int main() {
+    int t;
+    cout<<"Enter number of test cases:"<<endl;
+	cin>>t;
+	int a,b,c,i;
+	for(i=0;i<t;i++)
+	{
+	    cout<<"Enter the people living in area a,b,c respectively:"<<endl;
+	    cin>>a;
+	    cin>>b;
+	    cin>>c;
+	    if((a+c)>b)
+	    {
+	    cout<<"Maximum number of people in the party can be:"<<a+c<<endl;
+	    }
+	    else
+	    {
+	        cout<<"Maximum number of people in the party can be:"<<b<<endl;
+	    }
+	}
+	return 0;
+}
