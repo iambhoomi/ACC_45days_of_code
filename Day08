@@ -1,0 +1,17 @@
+//Day08
+#include <iostream>
+using namespace std;
+
+int main() {
+	int t,x,y,i;
+    cin>>t;
+	for(i=0;i<t;i++)
+	{
+	    cin>>x;
+	    cin>>y;
+	    cout<<(x/y)/2<<endl;
+	  
+	    
+	}
+	return 0;
+}
