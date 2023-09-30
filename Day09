@@ -1,0 +1,32 @@
+#include <iostream>
+using namespace std;
+
+int main() 
+{
+    int t;
+    cout << "Enter the number of test cases to be run : ";
+    cin >> t; 
+    
+    while (t--) 
+    {
+        int x, y, m;
+        cout << "Amount of renting a cooler (in coins) : ";
+        cin >> x;
+        
+        cout << "Amount of cooler : ";
+        cin >> y; 
+        
+        if (x >= y) 
+        {
+            cout << "0" << endl; 
+        } 
+        else 
+        {
+            int m = y / x; 
+            cout << m << endl; 
+        }
+       
+    }
+    
+    return 0;
+}
