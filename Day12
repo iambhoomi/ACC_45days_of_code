@@ -1,0 +1,29 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int t;
+    cout << "Enter the number of test cases to be run : ";
+    cin >> t; 
+    
+    while (t--) 
+    {
+        int x, y, z, variable, result;
+        cin >> x >> y >> z;
+        variable=y/x;
+        result=z-variable;
+        
+        if (result>1)
+        {
+            cout << result << endl;
+            
+        }
+        else
+        {
+            cout << 0 << endl;
+        }
+       
+    }
+    
+    return 0;
+}
