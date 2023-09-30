@@ -1,0 +1,33 @@
+#include <iostream>
+using namespace std;
+
+int main() 
+{
+    int t;
+    cout << "Enter the number of test cases to be run: ";
+    cin >> t;
+    
+    while(t--)
+    {
+        int n, m, run;
+        cout << "Enter number of run needed : ";
+        cin >> n;
+        
+        cout << "Enter number of overs : ";
+        cin >> m;
+        
+        run = 6*6*m;
+        
+        if(n>run)
+        {
+            cout << "No" << endl;
+        }
+        else
+        {
+            cout << "Yes" << endl;
+        }
+        
+    }
+
+    return 0;
+}
