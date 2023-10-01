@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	int i,t,x,y,z;
+	cin>>t;
+	for(i=0;i<t;i++)
+	{
+	    cin>>x;
+	    cin>>y;
+	    z=x/y+x%y;
+	    cout<<z<<endl;
+	}
+	return 0;
+}
